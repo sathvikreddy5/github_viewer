@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Heading */
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+/* Search */
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+#username {
+  flex: 1;
+  padding: 14px 16px;
+  font-size: 16px;
+  background: #161b22;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  outline: none;
+}
+
+#username::placeholder {
+  color: #8b949e;
+}
+
+#username:focus {
+  border-color: #58a6ff;
+}
+
+#searchBtn {
+  padding: 14px 22px;
+  font-size: 16px;
+  background: #238636;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#searchBtn:hover {
+  background: #2ea043;
+}
+
+/* Profile Card */
+
+#profile {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+/* Profile Image */
+
+#profile > img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  border: 3px solid #30363d;
+}
+
+/* Profile Name */
+
+#profile h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+/* Profile Text */
+
+#profile p {
+  text-align: center;
+  margin: 8px 0;
+  color: #8b949e;
+  line-height: 1.5;
+}
+
+/* Repository Cards */
+
+.repo {
+  padding: 18px;
+  margin-top: 15px;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  background: #0d1117;
+  transition: 0.2s;
+}
+
+.repo:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+.repo h3 {
+  color: #58a6ff;
+  margin-bottom: 8px;
+}
+
+.repo p {
+  text-align: left !important;
+  margin: 6px 0 !important;
+}
+
+.repo a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.repo a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  body {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  #username,
+  #searchBtn {
+    width: 100%;
+  }
+
+  #profile {
+    padding: 20px;
+  }
+}
