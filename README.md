@@ -13,7 +13,7 @@ A simple web application that allows users to search for a GitHub username and e
 * Display repository stars and forks
 * Direct links to repositories
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * HTML5
 * CSS3
@@ -31,7 +31,7 @@ github_viewer/
 └── app.js
 ```
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Enter a GitHub username in the search box.
 2. Click **Search** .
@@ -51,7 +51,7 @@ GET /users/{username}/repos
 
 No backend server is required for this version of the project.
 
-## ▶️ Running the Project
+##  Running the Project
 
 Clone the repository:
 
