@@ -30,14 +30,7 @@ A simple web application that allows users to search for a GitHub username and e
 5. JavaScript processes the response.
 6. The profile and repositories are dynamically displayed on the webpage.
 
-##  API Endpoints
 
-The project uses GitHub's public REST API:
-
-```text
-GET /users/{username}
-GET /users/{username}/repos
-```
 
 No backend server is required for this version of the project.
 
