@@ -21,16 +21,6 @@ A simple web application that allows users to search for a GitHub username and e
 * GitHub REST API
 
 
-##  Project Structure
-
-```text
-github_viewer/
-│
-├── index.html
-├── style.css
-└── app.js
-```
-
 ##  How It Works
 
 1. Enter a GitHub username in the search box.
