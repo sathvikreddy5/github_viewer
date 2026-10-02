@@ -30,23 +30,6 @@ A simple web application that allows users to search for a GitHub username and e
 5. JavaScript processes the response.
 6. The profile and repositories are dynamically displayed on the webpage.
 
-
-
-No backend server is required for this version of the project.
-
-##  Running the Project
-
-Clone the repository:
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-Open the project folder and launch `index.html` in a browser.
-
-Alternatively, use an extension such as **Live Server** in VS Code for local development.
-
-
 ##  Future Improvements
 
 Possible improvements for future versions:
