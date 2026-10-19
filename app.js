@@ -27,8 +27,6 @@ searchBtn.addEventListener("click", async () => {
 
     reposData.sort((a, b) => b.stargazers_count - a.stargazers_count);
 
-    // const topRepos = reposData.slice(0, 5);
-
     const repoHtml = reposData
       .map((repo) => {
         return `
