@@ -49,6 +49,6 @@ Possible improvements for future versions:
 
 This project helped me understand how frontend JavaScript communicates with external APIs, processes JSON data, handles asynchronous operations, and dynamically updates the DOM based on API responses.
 
-## 👨‍💻 Author
+## Author
 
 **Sathvik Reddy**
